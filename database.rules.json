@@ -1,0 +1,1 @@
+{"rules":{"quizSessions":{"$code":{".read":"auth != null && (data.child('owner').val() === auth.uid || data.child('players').child(auth.uid).exists())",".write":false}}}}

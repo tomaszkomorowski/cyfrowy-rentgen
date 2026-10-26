@@ -1,9 +1,11 @@
-// Wklej tutaj konfigurację aplikacji WWW z Firebase Console.
-// databaseURL jest obowiązkowy dla Realtime Database.
-export const firebaseConfig = {
-  apiKey: 'AIzaSyBlLEcop8p-SmXZ55HkQudQpv7v0nmS5Hg',
-  authDomain: 'cyberlab01-a97e9.firebaseapp.com',
-  databaseURL: 'https://cyberlab01-a97e9-default-rtdb.europe-west1.firebasedatabase.app/',
-  projectId: 'cyberlab01-a97e9',
-  appId: '1:137633156587:web:81ce510668387f6af4ddae'
+// Wstaw wartości z Firebase > Project settings > Your apps > Config.
+// Jeśli masz już skonfigurowany firebase-config.js, zachowaj prawidłowe wartości.
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBGW4-F97OCJgBhvAR4u6JoMunSKevM-WU",
+  authDomain: "konkurs-a0b82.firebaseapp.com",
+  databaseURL: "https://console.firebase.google.com/project/konkurs-a0b82/database/konkurs-a0b82-default-rtdb/data/~2F"
+  projectId: "konkurs-a0b82",
+  storageBucket: "konkurs-a0b82.firebasestorage.app",
+  messagingSenderId: "753562698681",
+  appId: "1:753562698681:web:65d13e1707ac5125662c68"
 };
